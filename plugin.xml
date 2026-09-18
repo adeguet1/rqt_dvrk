@@ -1,0 +1,10 @@
+<library path="src">
+  <class name="Console" type="rqt_dvrk.console_plugin.ConsolePlugin" base_class_type="rqt_gui_py::Plugin">
+    <description>dVRK console teleoperation controls.</description>
+    <qtgui><group><label>dVRK</label></group><label>Console</label></qtgui>
+  </class>
+  <class name="System" type="rqt_dvrk.system_plugin.SystemPlugin" base_class_type="rqt_gui_py::Plugin">
+    <description>dVRK system power and homing controls.</description>
+    <qtgui><group><label>dVRK</label></group><label>System</label></qtgui>
+  </class>
+</library>
